@@ -22,6 +22,7 @@ export default class SearchAndFilterOptions extends Component {
     this.props.setLoading();
     const {api} = this.props;
     const {query, filter} = this.state;
+    this.setState({query: ''})
 
     e.preventDefault();
     try {
