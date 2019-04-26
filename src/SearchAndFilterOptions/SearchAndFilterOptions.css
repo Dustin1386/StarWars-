@@ -1,1 +1,30 @@
 /* styling for SearchAndFilterOptions Component */
+
+form .form-group:nth-child(1) input{
+  height: 23px;
+  min-width: 200px;
+}
+
+form .form-group label{
+  margin-right: 10px;
+}
+
+.form-group {
+  margin: 10px 0;
+}
+
+fieldset {
+  border: none;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}

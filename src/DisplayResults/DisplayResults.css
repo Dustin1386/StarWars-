@@ -1,1 +1,18 @@
 /* styling for DisplayResults Component */
+
+.results {
+  margin-top: 50px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li > div {
+  padding: 20px;
+  border: 1px solid black;
+}
+
+li div div {
+  margin: 10px 0;
+}
